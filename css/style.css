@@ -1,0 +1,45 @@
+body {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255,0,0,0.2);    
+}
+
+
+img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.country-container {
+    display: flex;
+}
+
+.country {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.add {
+    border-radius: 50%;
+    background-color: turquoise;
+    color: black;
+    font-weight: bold;
+}
+
+.country-list {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.favorite-list {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 15px;
+}
